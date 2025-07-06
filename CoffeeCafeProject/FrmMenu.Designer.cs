@@ -116,6 +116,7 @@
             this.tbMenuPrice.Name = "tbMenuPrice";
             this.tbMenuPrice.Size = new System.Drawing.Size(181, 20);
             this.tbMenuPrice.TabIndex = 37;
+            this.tbMenuPrice.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbMenuPrice_KeyPress);
             // 
             // btSelectMenuImage
             // 
@@ -125,6 +126,7 @@
             this.btSelectMenuImage.TabIndex = 38;
             this.btSelectMenuImage.Text = "...";
             this.btSelectMenuImage.UseVisualStyleBackColor = true;
+            this.btSelectMenuImage.Click += new System.EventHandler(this.btSelectMenuImage_Click);
             // 
             // lvShowAllMenu
             // 
@@ -134,6 +136,7 @@
             this.lvShowAllMenu.Size = new System.Drawing.Size(423, 218);
             this.lvShowAllMenu.TabIndex = 39;
             this.lvShowAllMenu.UseCompatibleStateImageBehavior = false;
+            this.lvShowAllMenu.ItemActivate += new System.EventHandler(this.lvShowAllMenu_ItemActivate);
             // 
             // pictureBox12
             // 
@@ -166,6 +169,7 @@
             this.btCancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btCancel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btCancel.UseVisualStyleBackColor = true;
+            this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
             // btClose
             // 
@@ -178,6 +182,7 @@
             this.btClose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btClose.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btClose.UseVisualStyleBackColor = true;
+            this.btClose.Click += new System.EventHandler(this.btClose_Click);
             // 
             // btDelete
             // 
@@ -190,6 +195,7 @@
             this.btDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btDelete.UseVisualStyleBackColor = true;
+            this.btDelete.Click += new System.EventHandler(this.btDelete_Click);
             // 
             // btUpdate
             // 
@@ -202,6 +208,7 @@
             this.btUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btUpdate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btUpdate.UseVisualStyleBackColor = true;
+            this.btUpdate.Click += new System.EventHandler(this.btUpdate_Click);
             // 
             // btSave
             // 
@@ -214,6 +221,7 @@
             this.btSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btSave.UseVisualStyleBackColor = true;
+            this.btSave.Click += new System.EventHandler(this.btSave_Click);
             // 
             // label4
             // 

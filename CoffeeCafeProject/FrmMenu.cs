@@ -41,8 +41,8 @@ namespace CoffeeCafeProject
         private void getAllMenuToListView()
         {
             //กำหนด Connect String เพื่อติดต่อฐานข้อมูล
-            string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
-            using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+            //string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
+            using (SqlConnection sqlConnection = new SqlConnection(ConfigDb.connectionString))
             {
                 try
                 {
@@ -183,9 +183,9 @@ namespace CoffeeCafeProject
             }
             else
             {
-                string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
+                //string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
 
-                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                using (SqlConnection sqlConnection = new SqlConnection(ConfigDb.connectionString))
                 {
                     try
                     {
@@ -292,9 +292,9 @@ namespace CoffeeCafeProject
             }
             else
             {
-                string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
+                //string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
 
-                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                using (SqlConnection sqlConnection = new SqlConnection(ConfigDb.connectionString))
                 {
                     try
                     {
@@ -352,9 +352,9 @@ namespace CoffeeCafeProject
         {
             if (MessageBox.Show("ต้องการลบเมนูหรือไม่", "ยีนยัน", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
+                //string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
 
-                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                using (SqlConnection sqlConnection = new SqlConnection(ConfigDb.connectionString))
                 {
                     try
                     {

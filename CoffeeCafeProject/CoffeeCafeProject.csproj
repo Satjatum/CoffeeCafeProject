@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigDb.cs" />
     <Compile Include="FrmMenu.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -20,8 +20,8 @@ namespace CoffeeCafeProject
         private void getAllMemberToListView()
         {
             //กำหนด Connect String เพื่อติดต่อฐานข้อมูล
-            string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
-            using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+            //string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
+            using (SqlConnection sqlConnection = new SqlConnection(ConfigDb.connectionString))
             {
                 try
                 {
@@ -94,8 +94,8 @@ namespace CoffeeCafeProject
             }
             else
             {
-                string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
-                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                //string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
+                using (SqlConnection sqlConnection = new SqlConnection(ConfigDb.connectionString))
                 {
                     try
                     {
@@ -103,14 +103,17 @@ namespace CoffeeCafeProject
 
                         SqlTransaction sqlTransaction = sqlConnection.BeginTransaction();
 
+                       
 
-                        string strSQL = "INSERT INTO member_tb (memberPhone, memberName) " +
-                                         "VALUES (@memberPhone, @memberName)";
+
+                        string strSQL = "INSERT INTO member_tb (memberPhone, memberName, memberScore) " +
+                                         "VALUES (@memberPhone, @memberName, @memberScore)";
 
                         using (SqlCommand sqlCommand = new SqlCommand(strSQL, sqlConnection, sqlTransaction))
                         {
                             sqlCommand.Parameters.Add("@memberPhone", SqlDbType.NVarChar, 50).Value = tbMemberPhone.Text;
                             sqlCommand.Parameters.Add("@memberName", SqlDbType.NVarChar, 100).Value = tbMemberName.Text;
+                            sqlCommand.Parameters.Add("@memberScore", SqlDbType.Int).Value = 0; 
 
                             sqlCommand.ExecuteNonQuery();
                             sqlTransaction.Commit();
@@ -161,9 +164,9 @@ namespace CoffeeCafeProject
             }
             else
             {
-                string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
+                //string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
 
-                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                using (SqlConnection sqlConnection = new SqlConnection(ConfigDb.connectionString))
                 {
                     try
                     {
@@ -212,9 +215,9 @@ namespace CoffeeCafeProject
         {
             if (MessageBox.Show("ต้องการลบเมนูหรือไม่", "ยีนยัน", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
+                //string connectionString = @"Server=SATJATUM\SQLEXPRESS01;Database=coffee_cafe_db;Trusted_Connection=True";
 
-                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                using (SqlConnection sqlConnection = new SqlConnection(ConfigDb.connectionString))
                 {
                     try
                     {

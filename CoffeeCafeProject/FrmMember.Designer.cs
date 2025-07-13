@@ -53,9 +53,10 @@
             this.label1.BackColor = System.Drawing.Color.SaddleBrown;
             this.label1.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(120, 22);
+            this.label1.Location = new System.Drawing.Point(160, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(331, 55);
+            this.label1.Size = new System.Drawing.Size(441, 68);
             this.label1.TabIndex = 28;
             this.label1.Text = "จัดการข้อมูลสมาชิก";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -63,26 +64,29 @@
             // lvShowAllMember
             // 
             this.lvShowAllMember.HideSelection = false;
-            this.lvShowAllMember.Location = new System.Drawing.Point(29, 177);
+            this.lvShowAllMember.Location = new System.Drawing.Point(39, 218);
+            this.lvShowAllMember.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lvShowAllMember.Name = "lvShowAllMember";
-            this.lvShowAllMember.Size = new System.Drawing.Size(422, 312);
+            this.lvShowAllMember.Size = new System.Drawing.Size(561, 383);
             this.lvShowAllMember.TabIndex = 46;
             this.lvShowAllMember.UseCompatibleStateImageBehavior = false;
             this.lvShowAllMember.ItemActivate += new System.EventHandler(this.lvShowAllMember_ItemActivate);
             // 
             // tbMemberName
             // 
-            this.tbMemberName.Location = new System.Drawing.Point(301, 139);
+            this.tbMemberName.Location = new System.Drawing.Point(401, 171);
+            this.tbMemberName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbMemberName.Name = "tbMemberName";
-            this.tbMemberName.Size = new System.Drawing.Size(150, 20);
+            this.tbMemberName.Size = new System.Drawing.Size(199, 22);
             this.tbMemberName.TabIndex = 44;
             // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(300, 110);
+            this.label3.Location = new System.Drawing.Point(400, 135);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 23);
+            this.label3.Size = new System.Drawing.Size(92, 28);
             this.label3.TabIndex = 43;
             this.label3.Text = "ชื่อสมาชิก";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -90,27 +94,30 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(124, 110);
+            this.label2.Location = new System.Drawing.Point(165, 135);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 23);
+            this.label2.Size = new System.Drawing.Size(176, 28);
             this.label2.TabIndex = 42;
             this.label2.Text = "เบอร์โทรสมาชิก";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tbMemberPhone
             // 
-            this.tbMemberPhone.Location = new System.Drawing.Point(125, 139);
+            this.tbMemberPhone.Location = new System.Drawing.Point(167, 171);
+            this.tbMemberPhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbMemberPhone.Name = "tbMemberPhone";
-            this.tbMemberPhone.Size = new System.Drawing.Size(150, 20);
+            this.tbMemberPhone.Size = new System.Drawing.Size(199, 22);
             this.tbMemberPhone.TabIndex = 40;
             this.tbMemberPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbMemberPhone_KeyPress);
             // 
             // pictureBox12
             // 
             this.pictureBox12.Image = global::CoffeeCafeProject.Properties.Resources.cofffeelogo;
-            this.pictureBox12.Location = new System.Drawing.Point(484, 22);
+            this.pictureBox12.Location = new System.Drawing.Point(645, 27);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox12.Size = new System.Drawing.Size(73, 68);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox12.TabIndex = 30;
             this.pictureBox12.TabStop = false;
@@ -118,9 +125,10 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::CoffeeCafeProject.Properties.Resources.cofffeelogo;
-            this.pictureBox11.Location = new System.Drawing.Point(28, 22);
+            this.pictureBox11.Location = new System.Drawing.Point(37, 27);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox11.Size = new System.Drawing.Size(73, 68);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox11.TabIndex = 29;
             this.pictureBox11.TabStop = false;
@@ -128,9 +136,10 @@
             // btClose
             // 
             this.btClose.Image = global::CoffeeCafeProject.Properties.Resources.cancel;
-            this.btClose.Location = new System.Drawing.Point(470, 420);
+            this.btClose.Location = new System.Drawing.Point(627, 517);
+            this.btClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btClose.Name = "btClose";
-            this.btClose.Size = new System.Drawing.Size(87, 68);
+            this.btClose.Size = new System.Drawing.Size(116, 84);
             this.btClose.TabIndex = 58;
             this.btClose.Text = "ปิด";
             this.btClose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -141,9 +150,10 @@
             // btDelete
             // 
             this.btDelete.Image = global::CoffeeCafeProject.Properties.Resources.delete;
-            this.btDelete.Location = new System.Drawing.Point(470, 270);
+            this.btDelete.Location = new System.Drawing.Point(627, 332);
+            this.btDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btDelete.Name = "btDelete";
-            this.btDelete.Size = new System.Drawing.Size(87, 68);
+            this.btDelete.Size = new System.Drawing.Size(116, 84);
             this.btDelete.TabIndex = 57;
             this.btDelete.Text = "ลบ";
             this.btDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -154,9 +164,10 @@
             // btUpdate
             // 
             this.btUpdate.Image = global::CoffeeCafeProject.Properties.Resources.update;
-            this.btUpdate.Location = new System.Drawing.Point(470, 196);
+            this.btUpdate.Location = new System.Drawing.Point(627, 241);
+            this.btUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btUpdate.Name = "btUpdate";
-            this.btUpdate.Size = new System.Drawing.Size(87, 68);
+            this.btUpdate.Size = new System.Drawing.Size(116, 84);
             this.btUpdate.TabIndex = 56;
             this.btUpdate.Text = "แก้ไข";
             this.btUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -167,9 +178,10 @@
             // btSave
             // 
             this.btSave.Image = global::CoffeeCafeProject.Properties.Resources.save;
-            this.btSave.Location = new System.Drawing.Point(470, 122);
+            this.btSave.Location = new System.Drawing.Point(627, 150);
+            this.btSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btSave.Name = "btSave";
-            this.btSave.Size = new System.Drawing.Size(87, 68);
+            this.btSave.Size = new System.Drawing.Size(116, 84);
             this.btSave.TabIndex = 55;
             this.btSave.Text = "บันทึก";
             this.btSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -180,9 +192,10 @@
             // btCancel
             // 
             this.btCancel.Image = global::CoffeeCafeProject.Properties.Resources.reset;
-            this.btCancel.Location = new System.Drawing.Point(470, 346);
+            this.btCancel.Location = new System.Drawing.Point(627, 426);
+            this.btCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btCancel.Name = "btCancel";
-            this.btCancel.Size = new System.Drawing.Size(87, 68);
+            this.btCancel.Size = new System.Drawing.Size(116, 84);
             this.btCancel.TabIndex = 59;
             this.btCancel.Text = "ยกเลิก";
             this.btCancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -193,26 +206,28 @@
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(29, 110);
+            this.label4.Location = new System.Drawing.Point(39, 135);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 23);
+            this.label4.Size = new System.Drawing.Size(100, 28);
             this.label4.TabIndex = 61;
             this.label4.Text = "รหัสสมาชิก";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tbMemberId
             // 
-            this.tbMemberId.Location = new System.Drawing.Point(29, 139);
+            this.tbMemberId.Location = new System.Drawing.Point(39, 171);
+            this.tbMemberId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbMemberId.Name = "tbMemberId";
             this.tbMemberId.ReadOnly = true;
-            this.tbMemberId.Size = new System.Drawing.Size(68, 20);
+            this.tbMemberId.Size = new System.Drawing.Size(89, 22);
             this.tbMemberId.TabIndex = 60;
             // 
             // FrmMember
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(569, 514);
+            this.ClientSize = new System.Drawing.Size(759, 633);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.tbMemberId);
             this.Controls.Add(this.btCancel);
@@ -230,6 +245,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FrmMember";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -89,7 +89,7 @@
             // btMenu1
             // 
             this.btMenu1.Location = new System.Drawing.Point(20, 156);
-            this.btMenu1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btMenu1.Margin = new System.Windows.Forms.Padding(4);
             this.btMenu1.Name = "btMenu1";
             this.btMenu1.Size = new System.Drawing.Size(135, 55);
             this.btMenu1.TabIndex = 0;
@@ -100,7 +100,7 @@
             // btMenu6
             // 
             this.btMenu6.Location = new System.Drawing.Point(20, 370);
-            this.btMenu6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btMenu6.Margin = new System.Windows.Forms.Padding(4);
             this.btMenu6.Name = "btMenu6";
             this.btMenu6.Size = new System.Drawing.Size(135, 55);
             this.btMenu6.TabIndex = 2;
@@ -111,7 +111,7 @@
             // btMenu7
             // 
             this.btMenu7.Location = new System.Drawing.Point(173, 370);
-            this.btMenu7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btMenu7.Margin = new System.Windows.Forms.Padding(4);
             this.btMenu7.Name = "btMenu7";
             this.btMenu7.Size = new System.Drawing.Size(135, 55);
             this.btMenu7.TabIndex = 6;
@@ -122,7 +122,7 @@
             // btMenu2
             // 
             this.btMenu2.Location = new System.Drawing.Point(173, 156);
-            this.btMenu2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btMenu2.Margin = new System.Windows.Forms.Padding(4);
             this.btMenu2.Name = "btMenu2";
             this.btMenu2.Size = new System.Drawing.Size(135, 55);
             this.btMenu2.TabIndex = 4;
@@ -133,7 +133,7 @@
             // btMenu9
             // 
             this.btMenu9.Location = new System.Drawing.Point(480, 370);
-            this.btMenu9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btMenu9.Margin = new System.Windows.Forms.Padding(4);
             this.btMenu9.Name = "btMenu9";
             this.btMenu9.Size = new System.Drawing.Size(135, 55);
             this.btMenu9.TabIndex = 14;
@@ -144,7 +144,7 @@
             // btMenu4
             // 
             this.btMenu4.Location = new System.Drawing.Point(480, 156);
-            this.btMenu4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btMenu4.Margin = new System.Windows.Forms.Padding(4);
             this.btMenu4.Name = "btMenu4";
             this.btMenu4.Size = new System.Drawing.Size(135, 55);
             this.btMenu4.TabIndex = 12;
@@ -155,7 +155,7 @@
             // btMenu8
             // 
             this.btMenu8.Location = new System.Drawing.Point(327, 370);
-            this.btMenu8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btMenu8.Margin = new System.Windows.Forms.Padding(4);
             this.btMenu8.Name = "btMenu8";
             this.btMenu8.Size = new System.Drawing.Size(135, 55);
             this.btMenu8.TabIndex = 10;
@@ -166,7 +166,7 @@
             // btMenu3
             // 
             this.btMenu3.Location = new System.Drawing.Point(327, 156);
-            this.btMenu3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btMenu3.Margin = new System.Windows.Forms.Padding(4);
             this.btMenu3.Name = "btMenu3";
             this.btMenu3.Size = new System.Drawing.Size(135, 55);
             this.btMenu3.TabIndex = 8;
@@ -177,7 +177,7 @@
             // btMenu10
             // 
             this.btMenu10.Location = new System.Drawing.Point(633, 370);
-            this.btMenu10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btMenu10.Margin = new System.Windows.Forms.Padding(4);
             this.btMenu10.Name = "btMenu10";
             this.btMenu10.Size = new System.Drawing.Size(135, 55);
             this.btMenu10.TabIndex = 18;
@@ -189,7 +189,7 @@
             // 
             this.btMenu5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btMenu5.Location = new System.Drawing.Point(633, 156);
-            this.btMenu5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btMenu5.Margin = new System.Windows.Forms.Padding(4);
             this.btMenu5.Name = "btMenu5";
             this.btMenu5.Size = new System.Drawing.Size(135, 55);
             this.btMenu5.TabIndex = 16;
@@ -220,9 +220,9 @@
             this.groupBox1.Controls.Add(this.pbMenu1);
             this.groupBox1.Controls.Add(this.btMenu1);
             this.groupBox1.Location = new System.Drawing.Point(31, 119);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(785, 446);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
@@ -232,7 +232,7 @@
             this.pbMenu10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu10.Image = global::CoffeeCafeProject.Properties.Resources.menu;
             this.pbMenu10.Location = new System.Drawing.Point(633, 242);
-            this.pbMenu10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMenu10.Margin = new System.Windows.Forms.Padding(4);
             this.pbMenu10.Name = "pbMenu10";
             this.pbMenu10.Size = new System.Drawing.Size(134, 124);
             this.pbMenu10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -244,7 +244,7 @@
             this.pbMenu5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu5.Image = global::CoffeeCafeProject.Properties.Resources.menu;
             this.pbMenu5.Location = new System.Drawing.Point(633, 28);
-            this.pbMenu5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMenu5.Margin = new System.Windows.Forms.Padding(4);
             this.pbMenu5.Name = "pbMenu5";
             this.pbMenu5.Size = new System.Drawing.Size(134, 124);
             this.pbMenu5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -256,7 +256,7 @@
             this.pbMenu9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu9.Image = global::CoffeeCafeProject.Properties.Resources.menu;
             this.pbMenu9.Location = new System.Drawing.Point(480, 242);
-            this.pbMenu9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMenu9.Margin = new System.Windows.Forms.Padding(4);
             this.pbMenu9.Name = "pbMenu9";
             this.pbMenu9.Size = new System.Drawing.Size(134, 124);
             this.pbMenu9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -268,7 +268,7 @@
             this.pbMenu4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu4.Image = global::CoffeeCafeProject.Properties.Resources.menu;
             this.pbMenu4.Location = new System.Drawing.Point(480, 28);
-            this.pbMenu4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMenu4.Margin = new System.Windows.Forms.Padding(4);
             this.pbMenu4.Name = "pbMenu4";
             this.pbMenu4.Size = new System.Drawing.Size(134, 124);
             this.pbMenu4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -280,7 +280,7 @@
             this.pbMenu8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu8.Image = global::CoffeeCafeProject.Properties.Resources.menu;
             this.pbMenu8.Location = new System.Drawing.Point(327, 242);
-            this.pbMenu8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMenu8.Margin = new System.Windows.Forms.Padding(4);
             this.pbMenu8.Name = "pbMenu8";
             this.pbMenu8.Size = new System.Drawing.Size(134, 124);
             this.pbMenu8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -292,7 +292,7 @@
             this.pbMenu3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu3.Image = global::CoffeeCafeProject.Properties.Resources.menu;
             this.pbMenu3.Location = new System.Drawing.Point(327, 28);
-            this.pbMenu3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMenu3.Margin = new System.Windows.Forms.Padding(4);
             this.pbMenu3.Name = "pbMenu3";
             this.pbMenu3.Size = new System.Drawing.Size(134, 124);
             this.pbMenu3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -304,7 +304,7 @@
             this.pbMenu7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu7.Image = global::CoffeeCafeProject.Properties.Resources.menu;
             this.pbMenu7.Location = new System.Drawing.Point(173, 242);
-            this.pbMenu7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMenu7.Margin = new System.Windows.Forms.Padding(4);
             this.pbMenu7.Name = "pbMenu7";
             this.pbMenu7.Size = new System.Drawing.Size(134, 124);
             this.pbMenu7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -316,7 +316,7 @@
             this.pbMenu2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu2.Image = global::CoffeeCafeProject.Properties.Resources.menu;
             this.pbMenu2.Location = new System.Drawing.Point(173, 28);
-            this.pbMenu2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMenu2.Margin = new System.Windows.Forms.Padding(4);
             this.pbMenu2.Name = "pbMenu2";
             this.pbMenu2.Size = new System.Drawing.Size(134, 124);
             this.pbMenu2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -328,7 +328,7 @@
             this.pbMenu6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu6.Image = global::CoffeeCafeProject.Properties.Resources.menu;
             this.pbMenu6.Location = new System.Drawing.Point(20, 242);
-            this.pbMenu6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMenu6.Margin = new System.Windows.Forms.Padding(4);
             this.pbMenu6.Name = "pbMenu6";
             this.pbMenu6.Size = new System.Drawing.Size(134, 124);
             this.pbMenu6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -340,7 +340,7 @@
             this.pbMenu1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu1.Image = global::CoffeeCafeProject.Properties.Resources.menu;
             this.pbMenu1.Location = new System.Drawing.Point(20, 28);
-            this.pbMenu1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMenu1.Margin = new System.Windows.Forms.Padding(4);
             this.pbMenu1.Name = "pbMenu1";
             this.pbMenu1.Size = new System.Drawing.Size(134, 124);
             this.pbMenu1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -364,9 +364,9 @@
             this.groupBox2.Controls.Add(this.rdMemberYes);
             this.groupBox2.Controls.Add(this.rdMemberNo);
             this.groupBox2.Location = new System.Drawing.Point(835, 28);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(391, 642);
             this.groupBox2.TabIndex = 24;
             this.groupBox2.TabStop = false;
@@ -375,7 +375,7 @@
             // 
             this.btCancel.Image = global::CoffeeCafeProject.Properties.Resources.reset;
             this.btCancel.Location = new System.Drawing.Point(63, 532);
-            this.btCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btCancel.Name = "btCancel";
             this.btCancel.Size = new System.Drawing.Size(116, 84);
             this.btCancel.TabIndex = 29;
@@ -389,7 +389,7 @@
             // 
             this.btSave.Image = global::CoffeeCafeProject.Properties.Resources.save;
             this.btSave.Location = new System.Drawing.Point(221, 532);
-            this.btSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btSave.Margin = new System.Windows.Forms.Padding(4);
             this.btSave.Name = "btSave";
             this.btSave.Size = new System.Drawing.Size(116, 84);
             this.btSave.TabIndex = 28;
@@ -497,16 +497,17 @@
             // 
             this.lvOrderMenu.HideSelection = false;
             this.lvOrderMenu.Location = new System.Drawing.Point(31, 233);
-            this.lvOrderMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lvOrderMenu.Margin = new System.Windows.Forms.Padding(4);
             this.lvOrderMenu.Name = "lvOrderMenu";
             this.lvOrderMenu.Size = new System.Drawing.Size(328, 224);
             this.lvOrderMenu.TabIndex = 3;
             this.lvOrderMenu.UseCompatibleStateImageBehavior = false;
+            this.lvOrderMenu.ItemActivate += new System.EventHandler(this.lvOrderMenu_ItemActivate);
             // 
             // tbMemberPhone
             // 
             this.tbMemberPhone.Location = new System.Drawing.Point(225, 63);
-            this.tbMemberPhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbMemberPhone.Margin = new System.Windows.Forms.Padding(4);
             this.tbMemberPhone.Name = "tbMemberPhone";
             this.tbMemberPhone.Size = new System.Drawing.Size(133, 22);
             this.tbMemberPhone.TabIndex = 2;
@@ -516,7 +517,7 @@
             // 
             this.rdMemberYes.AutoSize = true;
             this.rdMemberYes.Location = new System.Drawing.Point(31, 66);
-            this.rdMemberYes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdMemberYes.Margin = new System.Windows.Forms.Padding(4);
             this.rdMemberYes.Name = "rdMemberYes";
             this.rdMemberYes.Size = new System.Drawing.Size(140, 20);
             this.rdMemberYes.TabIndex = 1;
@@ -529,7 +530,7 @@
             this.rdMemberNo.AutoSize = true;
             this.rdMemberNo.Checked = true;
             this.rdMemberNo.Location = new System.Drawing.Point(31, 26);
-            this.rdMemberNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdMemberNo.Margin = new System.Windows.Forms.Padding(4);
             this.rdMemberNo.Name = "rdMemberNo";
             this.rdMemberNo.Size = new System.Drawing.Size(89, 20);
             this.rdMemberNo.TabIndex = 0;
@@ -555,7 +556,7 @@
             // 
             this.pictureBox12.Image = global::CoffeeCafeProject.Properties.Resources.cofffeelogo;
             this.pictureBox12.Location = new System.Drawing.Point(689, 32);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(73, 68);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -566,7 +567,7 @@
             // 
             this.pictureBox11.Image = global::CoffeeCafeProject.Properties.Resources.cofffeelogo;
             this.pictureBox11.Location = new System.Drawing.Point(81, 32);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(73, 68);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -577,7 +578,7 @@
             // 
             this.btMember.Image = global::CoffeeCafeProject.Properties.Resources.member;
             this.btMember.Location = new System.Drawing.Point(440, 587);
-            this.btMember.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btMember.Margin = new System.Windows.Forms.Padding(4);
             this.btMember.Name = "btMember";
             this.btMember.Size = new System.Drawing.Size(205, 84);
             this.btMember.TabIndex = 23;
@@ -591,7 +592,7 @@
             // 
             this.btMenu.Image = global::CoffeeCafeProject.Properties.Resources.coffee;
             this.btMenu.Location = new System.Drawing.Point(204, 587);
-            this.btMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btMenu.Margin = new System.Windows.Forms.Padding(4);
             this.btMenu.Name = "btMenu";
             this.btMenu.Size = new System.Drawing.Size(201, 84);
             this.btMenu.TabIndex = 22;
@@ -615,7 +616,7 @@
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

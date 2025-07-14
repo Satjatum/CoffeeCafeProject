@@ -82,13 +82,13 @@ namespace CoffeeCafeProject
                         }
 
                         // วนลูปเอาข้อมูลที่อยู่ใน dataTable กำหนดให้กับ pbMenuImage, btMenuName, MenuPrice
-                        for (int i = 0; i < dataTable.Rows.Count ; i++)
+                        for (int i = 0; i < dataTable.Rows.Count; i++)
                         {
                             btMenuName[i].Text = dataTable.Rows[i]["menuName"].ToString();
                             menuPrice[i] = float.Parse(dataTable.Rows[i]["menuPrice"].ToString());
 
                             //เอารูปไปกำหนดให้กับ pbMenuImage
-                            if(dataTable.Rows[i]["menuImage"] != DBNull.Value)
+                            if (dataTable.Rows[i]["menuImage"] != DBNull.Value)
                             {
                                 byte[] imgByte = (byte[])dataTable.Rows[i]["menuImage"];
                                 using (var ms = new System.IO.MemoryStream(imgByte))
@@ -109,7 +109,7 @@ namespace CoffeeCafeProject
                 {
                     MessageBox.Show("พบข้อผิดพลาด กรุณาลองใหม่หรือติดต่อ IT : " + ex.Message);
                 }
-       
+
             }
         }
 
@@ -129,7 +129,7 @@ namespace CoffeeCafeProject
             tbMemberPhone.Enabled = false;
             tbMemberName.Text = "(ชื่อสมาชิก)";
             lbMemberScore.Text = "0";
-            memberId = 0;   
+            memberId = 0;
         }
 
         private void rdMemberYes_CheckedChanged(object sender, EventArgs e)
@@ -203,11 +203,11 @@ namespace CoffeeCafeProject
                 {
                     lbMemberScore.Text = (int.Parse(lbMemberScore.Text) + 1).ToString();
                 }
-            
+
                 //บวกราคาเพิ่ม
                 lbOrderPay.Text = (float.Parse(lbOrderPay.Text) + menuPrice[0]).ToString();
 
-            }    
+            }
         }
 
         private void btMenu2_Click(object sender, EventArgs e)
@@ -421,8 +421,8 @@ namespace CoffeeCafeProject
 
                         //บันทึกลง Order_th 
                         string strSQLOrder = "INSERT INTO order_tb (memberId, orderPay, createAt, updateAt) "
-                                             + "VALUES (@memberId, @orderPay, @createAt, @updateAt); " 
-                                             + "SELECT CAST(SCOPE_IDENTITY() AS INT)"; 
+                                             + "VALUES (@memberId, @orderPay, @createAt, @updateAt); "
+                                             + "SELECT CAST(SCOPE_IDENTITY() AS INT)";
 
                         //ตัวแปรเก็บ orderId
                         int orderId;
@@ -482,6 +482,30 @@ namespace CoffeeCafeProject
                     }
                 }
 
+            }
+        }
+
+        private void lvOrderMenu_ItemActivate(object sender, EventArgs e)
+        {
+            //ดับเบิลคลิกที่รายการใน lvOrderMenu เพื่อลบรายการนั้นออก
+            //เมื่อรายการถูกลบแล้วให้ลบแต้มสมาชิก 1 แต้ม
+            if (lvOrderMenu.SelectedItems.Count > 0)
+            {
+                ListViewItem selectedItem = lvOrderMenu.SelectedItems[0];
+                if (selectedItem != null)
+                {
+                    //ลบรายการที่เลือกออกจาก lvOrderMenu
+                    lvOrderMenu.Items.Remove(selectedItem);
+
+                    //ลบแต้มสมาชิก 1 แต้ม
+                    if (tbMemberName.Text != "(ชื่อสมาชิก)")
+                    {
+                        lbMemberScore.Text = (int.Parse(lbMemberScore.Text) - 1).ToString();
+                    }
+
+                    //ลบราคาออกจาก lbOrderPay
+                    lbOrderPay.Text = (float.Parse(lbOrderPay.Text) - float.Parse(selectedItem.SubItems[1].Text)).ToString();
+                }
             }
         }
     }
